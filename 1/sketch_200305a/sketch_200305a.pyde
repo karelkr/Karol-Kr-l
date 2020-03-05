@@ -1,6 +1,6 @@
 def setup():
     size(600, 600)
-    background
+    background(255,165,0)
 def draw():
      line(height, width, mouseX, mouseY)
      rect(200,200,200,200)
