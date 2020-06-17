@@ -1,0 +1,18 @@
+Bankomat
+	kontaKlientow #lista klientow gdzie nrKonta to indeks w tablicy
+
+	wyplacPieniadze([nrKonta, ilosc])
+
+	wplacPieniadze([nrKonta, ilosc])
+
+
+Klient
+	init(portfel, nrKonta)
+	
+	wezPieniadze(ilosc)
+		portfel += ilosc
+		return [self.nrKkonta, ilosc]
+
+	dajPieniadze(ilosc)
+		portfel -= ilosc
+		return [self.nrKkonta, ilosc]
