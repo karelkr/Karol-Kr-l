@@ -1,0 +1,7 @@
+Mieszkanie
+Student skończył główną fabułę w grze komputerowej, lecz pragnie dalej kontynuować
+rozgrywkę.
+Student instaluje mody dostępne w eksploratorze w menu głównym
+Student może kontynuować rozgrywkę.
+
+obserwator
