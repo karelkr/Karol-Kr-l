@@ -16,3 +16,5 @@ def draw():
         stroke("#0000FF")
     finally:
         rect(width/30, height/30, 400, 400)
+        
+# 2 pkt
