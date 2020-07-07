@@ -37,3 +37,5 @@ def draw():
 def mousePressed():
     global spinnerList
     spinnerList.append(Spinner(mouseX, mouseY, mouseY/5))
+    
+# 2 pkt +
