@@ -32,3 +32,5 @@ def setup():
     malyKwadraciastyKwadrat.sketchKwadraciasty(400, 400)
     duzyKwadraciastyKwadrat = KwadratDoKwadratu(250)
     duzyKwadraciastyKwadrat.sketchKwadraciasty(150, 150)
+    
+# 2 pkt +
