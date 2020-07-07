@@ -5,3 +5,5 @@ Student instaluje mody dostępne w eksploratorze w menu głównym
 Student może kontynuować rozgrywkę.
 
 obserwator
+to będzie bardziej dekorator, bo dodajemy funkcjonalność, obserwator wymagałby kolejnego aktora, który zauważyłby móżliwość któa pozwala na coś innego, brakuje tego elementu 'okazji' i obserwacji. Czymś takim byłoby powiadomienie ze Steama, że jest update halloweenowy z dyniami do gry, który możemy doinstalować bądź nie.
+1pkt
