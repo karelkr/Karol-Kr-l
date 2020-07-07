@@ -62,12 +62,16 @@ def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa ra
         if mouseY >40 and mouseY <60:
             library.addBook(Madzia.returnBook())
 
-class testCustomer(unittest.TestCase):
-    Madzia = Customer()
+class testCustomerAndLibrary(unittest.TestCase):
     def testNoBook(self):
-        self.assertEqual(self.Madzia.book, "")
-
-class testLibrary(unittest.TestCase):
-    library = Library(["Naocznosc", "Sens Sztuki", "Harry Potter"])
+        Madzia = Customer() # lepiej tworzyć obiekty bezpośrednio w teście,wtedy mmay pewność, że nic z zewnątrz ich nie zmieni i test jest niezależny
+        self.assertEqual(Madzia.book, "")
+        
     def testNotEmptyLibrary(self):
-        self.assertTrue(self.library.availableBooks != [])
+        library = Library(["Naocznosc", "Sens Sztuki", "Harry Potter"])
+        self.assertTrue(library.availableBooks != [])
+        
+if __name__ == '__main__':
+    unittest.main()
+    
+# 1,5pkt
