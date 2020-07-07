@@ -60,3 +60,5 @@ def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa ra
         if mouseY >40 and mouseY <60:
             library.addBook(Madzia.returnBook())
             library.addBook(Karolek.returnBook())
+            
+# 0,5pkt/0,5pkt za tę część

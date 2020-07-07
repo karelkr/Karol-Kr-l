@@ -1,12 +1,14 @@
 Bankomat
-	kontaKlientow #lista klientow gdzie nrKonta to indeks w tablicy
+	kontaKlientow #lista klientow gdzie nrKonta to indeks w tablicy - to powinno być w kalsie bank, dostępne dla bankomatu po połączeniu i uwierzytelnianiu z bankiem; chyba nie myślisz, że każdy jeden bankomat przechowuje listę wszystkich konta na świecie?
 
 	wyplacPieniadze([nrKonta, ilosc])
 
 	wplacPieniadze([nrKonta, ilosc])
 
+	jakaś inforamcja o ilości gotówki/nominałąch dostępnych w bankomacie?
 
-Klient
+
+Klient # jeden klient może mieć wiele kont i kart, więc nazwa klasy mało jednoznaczna
 	init(portfel, nrKonta)
 	
 	wezPieniadze(ilosc)
@@ -16,3 +18,7 @@ Klient
 	dajPieniadze(ilosc)
 		portfel -= ilosc
 		return [self.nrKkonta, ilosc]
+
+	jakieś uwierzytelnianie, np. PIN?
+
+0,5/1,5pkt za tę część
